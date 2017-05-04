@@ -10,8 +10,10 @@ aside {
 
 #barre {
 	background-color: #F37E3F;
-	height : 0%;
-	width : 0%;
+	height : 100%;
+	width : 100%;
+	top : 0px;
+	left : 0p;
   	position : fixed;
   	
 }
