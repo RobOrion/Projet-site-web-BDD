@@ -8,10 +8,20 @@ aside {
   margin-bottom: 10%;
 }
 
-header {
+#barre {
   background-color: #F37E3F;
   margin-bottom: 10%;
 }
+
+#titre{
+  margin-left: 10%;
+}
+
+#bouton{
+  text-align: right;
+  margin-right: 10%;
+}
+
 
 body{
   background-color: lightblue;

@@ -7,8 +7,16 @@
     </head>
     <body>
         <?php
-
-    if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "")
+        try
+{
+    $bdd = new PDO('mysql:host=localhost;dbname=profils', 'root', '');
+}
+catch (Exception $e)
+{
+  die('Erreur : ' . $e->getMessage())
+}
+$reponse = bdd-> query('SELECT password FROM profils')
+    if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "$reponse")
 
     {
     }

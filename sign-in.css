@@ -1,0 +1,33 @@
+body{
+  background-attachment:fixed;
+  background-position:center center;
+}
+
+
+#bloc{
+  text-align: center;
+  margin-top: 15%;
+  background-color: white;
+  margin-left: 40%;
+  margin-right: 40%;
+  border-style: solid;
+  color: brown;
+
+}
+
+#valid{
+
+}
+
+
+#pseudo{
+  font-size: 150%;
+}
+
+#mdp{
+  font-size: 150%;
+}
+
+h1{
+  font-size: 250%;
+}
