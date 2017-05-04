@@ -1,0 +1,40 @@
+aside {
+  background-color: lightblue;
+	border-color : orange;
+	border-style: double;
+	border-width: 10px;
+  text-align: right;
+  margin-left: 75%;
+  margin-bottom: 10%;
+}
+
+header {
+  background-color: #F37E3F;
+  margin-bottom: 10%;
+}
+
+body{
+  background-color: lightblue;
+}
+
+#section1 {
+  background-image: url("tennis.jpg");
+  background-size: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#section2 {
+  background-image: url("photo.jpg");
+  background-size: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#conteneur {
+  align-content: space-around;
+}
+
+footer {
+  background-color: white;
+}
