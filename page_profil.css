@@ -1,3 +1,85 @@
+body {
+	background : url("woo.jpg") no-repeat center fixed;
+	color : white;
+	
+}
+
+a.lien2 {
+	color : #24f0ff;
+}
+
+a.lien2:link {
+	text-decoration : none; /* lien non visité */ 
+} 
+
+a.lien2:visited {
+	text-decoration : none; /* lien visité */
+} 
+
+a.lien2:hover {
+	text-decoration : underline; /* lien survolé */
+}
+
+a.lien2:active {
+	text-decoration : none; /* lien sélectionné */ 
+}
+
 .bloc {
-  backgroundcolor : lightblue;
+	color: #24f0ff;
+	margin : auto;
+	border-radius : 10px;
+	text-align : center;
+	width : 120px;
+	height : 100px;
+	padding-top : 75px;
+	padding-left : 8px;
+	padding-right : 8px;
+	border : 2px solid #24f0f0;
+	position : relative;
+	float : left;
+	margin-left : 50px;
+	font-weight : bold;
+	
+}
+
+.bloc:before { 			/*Le fond grisé blanchâtre des familles*/
+	content : '';
+	background : url("woo.jpg") fixed 0 0;
+		-webkit-filter: blur(5px);
+		-moz-filter: blur(5px);
+		-ms-filter: blur(5px);
+		-o-filter: blur(5px);
+		filter: blur(5px);
+	position : absolute;
+	top : 0;
+	bottom : 0;
+	left : 0;
+	right : 0;    
+	z-index : -1;
+
+}
+
+#right {
+	float : right;
+	
+	
+}
+
+#left {
+	float : left;
+	margin-left : 100px;
+}
+
+#middle {
+	float : left;
+	margin-left : 101px;
+}
+
+#second {
+	float : right;
+	margin-right : 50px;
+}
+
+#lien1 {
+	color : white;
 }
