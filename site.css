@@ -10,7 +10,8 @@ aside {
 
 #barre {
 	background-color: #F37E3F;
-  	margin-bottom: 10%;
+	margin-rigth: 0%;
+	margin-left : 0%
   	position: fixed;
   	z-index: 1;
 }
