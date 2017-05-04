@@ -1,50 +1,52 @@
 aside {
-  background-color: lightblue;
+	background-color: lightblue;
 	border-color : orange;
 	border-style: double;
 	border-width: 10px;
-  text-align: right;
-  margin-left: 75%;
-  margin-bottom: 10%;
+	text-align: right;
+	margin-left: 75%;
+  	margin-bottom: 10%;
 }
 
 #barre {
-  background-color: #F37E3F;
-  margin-bottom: 10%;
+	background-color: #F37E3F;
+  	margin-bottom: 10%;
+  	position: fixed;
+  	z-index: 1;
 }
 
 #titre{
-  margin-left: 10%;
+  	margin-left: 10%;
 }
 
 #bouton{
-  text-align: right;
-  margin-right: 10%;
+  	text-align: right;
+  	margin-right: 10%;
 }
 
 
 body{
-  background-color: lightblue;
+  	background-color: lightblue;
 }
 
 #section1 {
-  background-image: url("tennis.jpg");
-  background-size: 100%;
-  margin-left: 25%;
-  margin-right: 25%;
+  	background-image: url("tennis.jpg");
+  	background-size: 100%;
+  	margin-left: 25%;
+  	margin-right: 25%;
 }
 
 #section2 {
-  background-image: url("photo.jpg");
-  background-size: 100%;
-  margin-left: 25%;
-  margin-right: 25%;
+  	background-image: url("photo.jpg");
+  	background-size: 100%;
+  	margin-left: 25%;
+  	margin-right: 25%;
 }
 
-#conteneur {
-  align-content: space-around;
-}
+/*#conteneur {
+  	align-content: space-around;
+}*/
 
 footer {
-  background-color: white;
+  	background-color: white;
 }
