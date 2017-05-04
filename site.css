@@ -10,10 +10,10 @@ aside {
 
 #barre {
 	background-color: #F37E3F;
-	margin-rigth: 0%;
-	margin-left : 0%
+	height : 0%;
+	width : 0%;
   	position : fixed;
-  	z-index: 1;
+  	
 }
 
 #titre{
