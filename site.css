@@ -1,95 +1,98 @@
 body{
-	background-color: #eeeeee;
-	margin: 0px;
+	background-color : #eeeeee;
+	margin : 0px;
 }
 
 
 aside {
-	background-color: lightblue;
+	background-color : lightblue;
 	border-color : orange;
-	border-style: double;
-	border-width: 10px;
-	text-align: right;
-	margin-left: 75%;
-  	margin-bottom: 10%;
+	border-style : double;
+	border-width : 10px;
+	text-align : right;
+	margin-left : 75%;
+  	margin-bottom : 10%;
 }
 
 
-#fond{
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-top: -190px;
+#fond {
+	margin-right : 0px;
+	margin-left : 0px;
+	margin-top : -190px;
 	width : 100%;
-	position:absolute;
-	z-index: 1;
+	position : absolute;
+	z-index : 1;
 }
 
 
-#favoris{
-	width: 35%;
-	border-style: outset;
-	position:absolute;
-	z-index: 2;
-	text-align: center;
-	margin-left: 30%;
-	margin-top: -50px;
+#favoris {
+	width : 35%;
+	border-style : outset;
+	position : absolute;
+	z-index : 2;
+	text-align : center;
+	margin-left : 30%;
+	margin-top : -50px;
 }
 
 
 #barre {
-	background-color: #a49393;
-	position: fixed;
-   width: 100%;
-   height: 11%;
-   top: 0%;
-	 left: 0%;
-	 z-index: 3;
+	background-color : #a49393;
+	position : fixed;
+   	width : 100%;
+   	height : 11%;
+   	top : 0%;
+	left : 0%;
 }
 
-#barre2{
-	background-color: #6a5d5d;
-	position: fixed;
-   width: 100%;
-   height: 7%;
-   top: 11%;
-	 left: 0%;
-	 z-index: 3;
+#barre2 {
+	background-color : #6a5d5d;
+	position : fixed;
+   	width : 100%;
+   	height : 7%;
+   	top : 11%;
+	left : 0%;
+	z-index : 3;
 }
 
-#titre{
-  	margin-left: 10%;
-		margin-right: 90%;
+#titre {
+	float : left;
+	margin-left : 2%;
+	margin-top : 1%;
+	width : 10%;
+	z-index : 10;
 }
 
-#bouton{
-  	text-align: right;
-  	margin-right: 10%;
-    margin-bottom: 100%;
-
+#bouton {
+  	text-align : right;
+	margin-right : 2%;
+	float : right;
+	margin-top : 1%;
+	z-index : 10;
 }
 
-#cherch{
-	margin-top: 0.8%;
-	margin-left: 2%;
+#cherch {
+	margin-top : 0.8%;
+	margin-left : 2%;
 }
 
-#valider{
-	margin-left: 1%;
+#valider {
+	margin-left : 1%;
 }
 
 #section1 {
-	margin-top: 20%;
-  	background-image: url("../tennis.jpg");
-  	background-size: 100%;
-  	margin-left: 25%;
-  	margin-right: 25%;
+	margin-top : 20%;
+  	background-image : url("../tennis.jpg");
+  	background-size : 100%;
+  	margin-left : 25%;
+  	margin-right : 25%;
 }
 
 #section2 {
-  	background-image: url("../photo.jpg");
-  	background-size: 100%;
-  	margin-left: 25%;
-  	margin-right: 25%;
+  	background-image : url("../photo.jpg");
+  	background-size : 100%;
+  	margin-left : 25%;
+  	margin-right : 25%;
 }
 
 
@@ -101,5 +104,5 @@ aside {
 }*/
 
 footer {
-  	background-color: white;
+  	background-color : white;
 }
