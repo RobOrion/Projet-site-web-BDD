@@ -12,11 +12,13 @@
 <body>
 	<div id = "barre">
 	<div id = "titre">
-		<img src="letter_s.png" width="120%"/>
+		<a href="site.php"> <img src="/img/letter_s.png" href="site.php" width="120%"/> </a>
 	</div>
 
 	<div id = "bouton">
-		<input type="button" value="Insciption" style="width: 50%;/>
+		<a href="espacemembre.php">
+		<input type="button" value="Insciption" style="width: 100%;"/>
+		</a>
 		<form action="sign-in.html">
 	  	<input type="submit" value="Connexion"/>
 		</form>
@@ -33,9 +35,15 @@
 	</div>
 
 
+	<div id = "Profil">
+		<a href="page_profil.php" id="lien1"> Profil </a>
+	</div>
+	</div>
+
+
 	<div id="top">
-		<img id = "fond" src = "../acceuil.jpg"  height="600px"/>
-		<img id = "favoris" src = "../photo.jpg"/>
+		<img id = "fond" src = "/img/accueil.jpg"  height="600px"/>
+		<img id = "favoris" src = "/img/photo.jpg"/>
 	</div>
 
 	<div id="conteneur">
@@ -61,13 +69,13 @@
 	<aside>
 		<center><h3> A propos des auteurs :</br></h3>
 			<p>Nous sommes trois élèves ingénieurs en informatique à l'EISTI en région parisienne. A travers ce projet, nous voulons que les gens se retrouvent en fonction de leurs passions et de leurs centres d'intérets.</p>
-			<img src="../tyty.jpg" width="20%"/> <img src="../alex.jpg" width="20%"/> <img src="../robin.jpg" width="20%"/></center>
+			<img src="/img/tyty.jpg" width="20%"/> <img src="/img/alex.jpg" width="20%"/> <img src="/img/robin.jpg" width="20%"/></center>
 	</aside>
 	</section>
 	</div>
 
 <footer>
-	<img src="../EISTI.jpg" width="10%"/>
+	<img src="/img/EISTI.jpg" width="10%"/>
 	<center>
 	<p><a href="#"> Chatelet Robin</a>
 	<a href="#"> Hassan Alexandre</a>
