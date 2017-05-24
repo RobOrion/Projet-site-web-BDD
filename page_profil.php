@@ -8,6 +8,10 @@
 </head>
 
 <body>
+	<?php 
+		include('fonction.php');
+		logged_only();
+	?>
 	<div id = "barre">
 	<div id = "titre">
 		<a href="site.php"> <img src="/img/letter_s.png" href="site.php" width="120%"/> </a>
@@ -37,6 +41,7 @@
 	</div>
 
 	<div id="conteneur">
+	
 	<div class="bloc">
 		<a href="evenement_page.php" class="lien2"> EVENEMENT
 	</div>
