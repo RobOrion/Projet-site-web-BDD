@@ -1,5 +1,5 @@
 body {
-	background : url("woo.jpg") no-repeat center fixed;
+	background : url("/img/woo.jpg") no-repeat center fixed;
 	color : white;
 }
 
@@ -81,7 +81,7 @@ a.lien2:active {
 	border : 2px solid #24f0f0;
 	position : relative;
 	float : left;
-	margin-left : 50px;
+	margin-left : 10%;
 	margin-top: 15%;
 	font-weight : bold;
 
@@ -89,7 +89,7 @@ a.lien2:active {
 
 .bloc:before { 			/*Le fond grisé blanchâtre des familles*/
 	content : '';
-	background : url("woo.jpg") fixed 0 0;
+	background : url("/img/woo.jpg") fixed 0 0;
 		-webkit-filter: blur(5px);
 		-moz-filter: blur(5px);
 		-ms-filter: blur(5px);
@@ -106,8 +106,6 @@ a.lien2:active {
 
 #right {
 	float : right;
-
-
 }
 
 #left {
