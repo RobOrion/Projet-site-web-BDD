@@ -10,11 +10,11 @@
 <body>
 	<div id = "barre">
 	<div id = "titre">
-		<img src="letter_s.png" width="120%"/>
+		<a href="site.php"> <img src="/img/letter_s.png" href="site.php" width="120%"/> </a>
 	</div>
 
 	<div id = "bouton">
-		<input type="button" value="Insciption" style="width: 50%;/>
+		<input type="button" value="Insciption" style="width: 100%;"/>
 		<form action="sign-in.html">
 	  	<input type="submit" value="Connexion"/>
 		</form>
