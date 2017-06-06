@@ -38,52 +38,48 @@
 	<div id = "Profil">
 		<a href="page_profil.php" id="lien1"> Profil </a>
 	</div>
-	</div>
+	</div> <!-- barre -->
 
 
-	<div id="top">
-		<img id = "fond" src = "/img/accueil.jpg"  height="600px"/>
-		<img id = "favoris" src = "/img/photo.jpg"/>
-	</div>
+	<img id = "fond" src = "/img/accueil.jpg"  height="600px"/>
 
-	<div id="conteneur">
-	<section>
+	<!-- <div id="conteneur"> -->
+
 	<div id="section1">
-		<center><h3><p>Créer son propre profil avec ses préférences :</br></h3>
+		<center> 
+			<h3>Créer son propre profil avec ses préférences :</h3>
 				- Une grande communauté pour partager ses passions;</br>
 				- Partager des photos, vidéos et réactions de nos réussites;</br>
 				- Trouver des gens près de nous partageant les mêmes hobbies.</br>
-			</p> </center>
-
-	</section>
-
-	<section>
-	<div id="section2">
-		<center><h3>Créer et trouver des évènements près de chez soi:</br></h3>
-								- Il vous manque quelqu'un pour compléter votre équipe de foot ? Vous pouvez le trouver ici;</br>
-								- Vous voulez prendre un cours de cuisine à domicile ? Créez votre annonce ici !;</br>
-		</center></div>
-	</section>
-
-	<section>
-	<aside>
-		<center><h3> A propos des auteurs :</br></h3>
-			<p>Nous sommes trois élèves ingénieurs en informatique à l'EISTI en région parisienne. A travers ce projet, nous voulons que les gens se retrouvent en fonction de leurs passions et de leurs centres d'intérets.</p>
-			<img src="/img/tyty.jpg" width="20%"/> <img src="/img/alex.jpg" width="20%"/> <img src="/img/robin.jpg" width="20%"/></center>
-	</aside>
-	</section>
+		</center>
 	</div>
 
-<footer>
-	<img src="/img/EISTI.jpg" width="10%"/>
-	<center>
-	<p><a href="#"> Chatelet Robin</a>
-	<a href="#"> Hassan Alexandre</a>
-	<a href="#"> Nguyen Terry</a></p>
-	</center>
-</footer>
+	<div id="section2">
+		<center>
+			<h3>Créer et trouver des évènements près de chez soi:</h3>
+				- Il vous manque quelqu'un pour compléter votre équipe de foot ? Vous pouvez le trouver ici;</br>
+				- Vous voulez prendre un cours de cuisine à domicile ? Créez votre annonce ici !;</br>
+		</center>
+	</div>
 
+	<aside>
+		<center>
+			<h3> A propos des auteurs :</h3>
+			Nous sommes trois élèves ingénieurs en informatique à l'EISTI en région parisienne. A travers ce projet, nous voulons que les gens se retrouvent en fonction de leurs passions et de leurs centres d'intérets.
+			<img src="/img/tyty.jpg" width="20%"/>
+			<img src="/img/alex.jpg" width="20%"/>
+			<img src="/img/robin.jpg" width="20%"/>
+		</center>
+	</aside>
+
+	<footer id="bas_page">
+		<a href="http://eisti.fr"> <img src="/img/EISTI.jpg" width="10%"/> </a>
+		<center>
+			<a href="#"> Chatelet Robin</a>
+			<a href="#"> Hassan Alexandre</a>
+			<a href="#"> Nguyen Terry</a>
+		</center>
+	</footer>
 
 </body>
-
 </html>
