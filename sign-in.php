@@ -7,7 +7,7 @@
      </head>
 
 
-     <body background = "../concert.jpg">
+     <body background = "/img/concert.jpg">
          <div id="bloc"><h1>Sign in </h1>
          <form action="secret.php" method="post">
                <div id=pseudo> Pseudo </div>
