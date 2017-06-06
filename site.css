@@ -18,9 +18,8 @@ aside {
 #fond {
 	margin-right : 0px;
 	margin-left : 0px;
-	margin-top : -11.5%;
+	margin-top : 8%;
 	width : 100%;
-	position : absolute;
 	z-index : -1;
 }
 
@@ -82,7 +81,7 @@ aside {
 }
 
 #section1 {
-	margin-top : 20%;
+	margin-top : 5%;
   	background-image : url("/img/tennis.jpg");
   	background-size : 100%;
   	margin-left : 25%;
@@ -90,12 +89,17 @@ aside {
 }
 
 #section2 {
+	margin-top : 5%;
   	background-image : url("/img/photo.jpg");
   	background-size : 100%;
   	margin-left : 25%;
   	margin-right : 25%;
 }
-
+#bas_page {
+	margin-top : 30%;
+	color : black;
+	background-color : yellow;
+}
 
 
 
