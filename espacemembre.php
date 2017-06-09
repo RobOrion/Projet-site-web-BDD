@@ -126,7 +126,7 @@ Date de Naissance :
 
    </label> <br/> <br/>
 
-   <input type="submit" value="Envoyer" />
+   <input type="submit" value="Confirmer" />
 
  </form>
  </fieldset>
