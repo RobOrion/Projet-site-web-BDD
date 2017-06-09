@@ -1,0 +1,15 @@
+body{
+  background-color: #B1B2B2;
+}
+
+#forum{
+  background-color: white;
+}
+
+#im{
+  margin-left: 30%;
+}
+
+#mondiv{
+  display:flex;
+}
