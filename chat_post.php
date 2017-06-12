@@ -2,7 +2,7 @@
 // Connexion à la base de données
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=profils;charset=utf8', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=Chat;charset=utf8', 'root', '');
 }
 catch(Exception $e)
 {
@@ -11,7 +11,7 @@ catch(Exception $e)
 
 // Insertion du message à l'aide d'une requête préparée
 
-$req = $bdd->prepare('INSERT INTO minichat (login, message) VALUES(?, ?)');
+$req = $bdd->prepare('INSERT INTO Chat (login, message) VALUES(?, ?)');
 
 $req->execute(array($_POST['pseudo'], $_POST['message']));
 
