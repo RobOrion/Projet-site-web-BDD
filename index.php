@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -8,11 +8,11 @@
 
     <title>SHARE</title>
     <!-- BOOTSTRAP CORE STYLE  -->
-    <link rel="stylesheet" href="bootstrap.css"/>
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME STYLE  -->
-    <link href="font-awesome.css" rel="stylesheet" />
+    <!--<link href="assets/css/font-awesome.css" rel="stylesheet" />-->
     <!-- CUSTOM STYLE  -->
-    <link rel="stylesheet" href="style.css"/>
+    <link href="assets/css/style.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -24,24 +24,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="left-div" href="index.php">
+                <a class="left-div" href="index.html">
 
-                    <img src="letter_s.png" />
+                    <img src="/img/letter_s.png" />
                 </a>
 
             </div>
 
-            <div id = "visiteur" class="right-div">
+            <div class="right-div">
                 <a href="espacemembre.php" class="btn btn-danger pull-right">S'inscrire</a>
-                <a href="sign-in.php" class="btn btn-danger pull-right">Connexion</a>
+                <a href="noninscrits.php" class="btn btn-danger pull-right">Connexion</a>
             </div>
-
-            <div id = "connecte" class = "right-div">
-              <a href="newPageProfil.php" id="lien1"> Profil </a>
-            </div>
-            </div>
-
-
         </div>
     </div>
     <!-- LOGO HEADER END-->
@@ -108,7 +101,7 @@
                       <div class="alert alert-success back-widget-set text-center">
                             <h3>Créer et trouver des évènements près de chez soi:</h3>
                             - Il vous manque quelqu'un pour compléter votre équipe de foot ? Vous pouvez le trouver ici;</br>
-- Vous voulez donner un cours de cuisine à domicile ? Créez votre annonce ici !;</br>
+- Vous voulez prendre un cours de cuisine à domicile ? Créez votre annonce ici !;</br>
                         </div>
                     </div></center>
 
@@ -122,15 +115,15 @@
                     <div class="carousel-inner">
                         <div class="item active">
 
-                            <img src="assets/img/1.jpg" alt="" />
+                            <img src="/img/1.jpg" alt="" />
 
                         </div>
                         <div class="item">
-                            <img src="assets/img/2.jpg" alt="" />
+                            <img src="/img/2.jpg" alt="" />
 
                         </div>
                         <div class="item">
-                            <img src="assets/img/3.jpg" alt="" />
+                            <img src="/img/3.jpg" alt="" />
 
                         </div>
                     </div>
@@ -160,9 +153,9 @@
                               Nous sommes trois élèves ingénieurs en informatique à l'EISTI en région parisienne. A travers ce projet, nous voulons que les gens se retrouvent en fonction de leurs passions et de leurs centres d'intérets.
                             </div>
                             <div class="chat-widget-name-left">
-                              <img src="tyty.jpg" width="20%"/>
+                              <img src="/img/tyty.jpg" width="20%"/>
                               <img src="/img/alex.jpg" width="20%"/>
-                              <img src="robin.jpg" width="20%"/>
+                              <img src="/img/robin.jpg" width="20%"/>
                             </div>
                             <hr />
                         </div>
@@ -182,7 +175,7 @@
                         <div class="panel-body text-center recent-users-sec">
 <img class="img-thumbnail"/>
                         <a href="http://www.meteofrance.com/accueil">Va checker la météo !</a>
-                        <img src="meteo.jpeg"/>
+                        <img src="/img/meteo.jpeg"/>
                         </div>
      </div>
              </div>
@@ -195,8 +188,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                   &copy; 2017 CHATELET Robin | HASSAN Alexandre | NGUYEN Terry
-                   <img src="eisti.png"/>
+                   &copy; 2017 CHATELET Robin | HASSAN Alexandre | NGUYEN TERRY
+                   <img src="/img/eisti.png"/>
                 </div>
 
             </div>
