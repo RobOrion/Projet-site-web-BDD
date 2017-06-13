@@ -37,7 +37,7 @@
      Code Postal : <input type="text" id="code" name="code" placeholder="Entrez un code postal"/>
    </label> <br/> <br/>
    <label>
-     Adresse : <br/> <textarea rows="4" cols="40" placeholder="adresse"> </textarea>
+     Adresse : <br/> <textarea id = "adresse" rows="4" cols="40" placeholder="adresse"> </textarea>
    </label>
    <label>
      E-mail : <input type="text" id="email" name="email" placeholder="Entrez votre adresse e-mail"/>
@@ -67,6 +67,67 @@
      Quel prix ?  <input type="int" id="prix" name="prix" placeholder="Quel prix par personne ?"/>
 
    </label> <br/> <br/>
+
+
+
+   <!--MAP -->
+   Lieu de votre évenement :
+    <div id="map" style="width:700px;height:400px;background:red;"></div>
+
+    <script>
+
+
+var geocoder;
+var map;
+// initialisation de la carte Google Map de départ
+function myMap() {
+  geocoder = new google.maps.Geocoder();
+  // Ici j'ai mis la latitude et longitude du vieux Port de Marseille pour centrer la carte de départ
+  var latlng = new google.maps.LatLng(51.5, -0.12);
+  var mapOptions = {
+    zoom      : 10,
+    center    : latlng,
+    mapTypeId : google.maps.MapTypeId.HYBRID
+  }
+  // map-canvas est le conteneur HTML de la carte Google Map
+  map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+  // Récupération de l'adresse tapée dans le formulaire
+  var adresse = document.getElementById('adresse').value;
+  geocoder.geocode( { 'address': adresse}, function(results, status) {
+    if (status == google.maps.GeocoderStatus.OK) {
+      map.setCenter(results[0].geometry.location);
+      // Récupération des coordonnées GPS du lieu tapé dans le formulaire
+      var strposition = results[0].geometry.location+"";
+      strposition=strposition.replace('(', '');
+      strposition=strposition.replace(')', '');
+      // Création du marqueur du lieu (épingle)
+      var marker = new google.maps.Marker({
+          map: map,
+          position: results[0].geometry.location,
+          title:"Votre évenement"
+      });
+    } else {
+      alert('Adresse introuvable: ' + status);
+    }
+  });
+}
+
+
+
+
+
+
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkgcl2StPS0DYGR3EL-Ey9Y6Ae9Ez4FVI&callback=myMap"></script>
+
+
+
+
+
+
+
 
    <center><input type="submit" value="Envoyer" id="but"/></center>
 
