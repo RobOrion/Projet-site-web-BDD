@@ -1,6 +1,6 @@
 body{
-  background-attachment:fixed;
-  background-position:center center;
+	background-image: url("/img/concert.jpg");
+	background-size: cover;
 }
 
 
