@@ -1,0 +1,74 @@
+html {
+	background-image: url("/img/highway.jpg");
+	background-size: cover;
+	color : white;
+}
+
+#bigtitle {
+	border : 3px solid white;
+	background : #063971;
+	margin : 0% 30% 0% 30%;
+	
+}
+
+#search {
+	border : 3px solid white;
+	margin : 0% 0% 3% 0%;
+	background : #063971;
+	font-style : bold;
+	font-size : 120%;
+	padding : 0.5% 0.5% 0.5% 0.5%;
+}
+
+#searchbar {
+	margin : 0% 2% 0% 80%;
+}
+
+#title {
+	border : 3px solid white;
+	background : #063971;
+	font-size : 130%;
+	font-style : bold;
+	text-align : center;
+	padding : 0.5% 0.5% 0.5% 0.5%;
+	margin : 0% 0% 0% 1%;
+}
+
+#but {
+	background :   white;
+	border-radius : 20%;
+	border : 2px solid  #2d99d6;
+	width : 5%;
+	line-height : 170%; 
+	
+}
+
+#formu {
+	font-size : 110%;
+}
+
+#places {
+	width : 7%;
+}
+
+#heure {
+	width : 11%;
+}
+
+#prix {
+	width : 11%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
