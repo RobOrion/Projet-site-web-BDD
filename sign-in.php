@@ -7,14 +7,14 @@
      </head>
 
 
-     <body background = "/img/concert.jpg">
+     <body>
          <div id="bloc"><h1>Sign in </h1>
          <form action="secret.php" method="post">
-               <div id=pseudo> Pseudo </div>
+               <div id=pseudo> Log In </div>
                <input type = "text" name = "pseudo"/>
                <div id=mdp> Mot de passe </div>
                <input type="password" name="mot_de_passe"/>
-               <br>
+		</br>
                <input id = "valid" type="submit" value="Valider"/>
          </form>
      </body>
