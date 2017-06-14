@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -26,48 +26,30 @@
                 </button>
                 <a class="left-div" href="index.html">
 
-                    <img src="/img/letter_s.png" />
+                    <img src="letter_s.png" />
                 </a>
 
             </div>
 
             <div class="right-div">
                 <a href="espacemembre.php" class="btn btn-danger pull-right">S'inscrire</a>
-                <a href="noninscrits.php" class="btn btn-danger pull-right">Connexion</a>
+                <a href="sign-in.php" class="btn btn-danger pull-right">Connexion</a>
             </div>
         </div>
     </div>
     <!-- LOGO HEADER END-->
     <section class="menu-section">
         <div class="container">
-            <div class="row ">
+            <div class="row">
                 <div class="col-md-12">
-                    <div class="site-collapse collapse ">
+                    <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a href="index.html" class="menu-top-active">Page d'accueil</a></li>
+                            <li><a href="index.html" >Accueil</a></li>
+                            <li><a href="page_profil.php">Profils</a></li>
+                            <li><a href="evenement.php">événements</a></li>
+                            <li><a href="covoiturage.php">Covoiturage</a></li>
+                            <li><a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">Contactez nous</a></li>
 
-                            <li><a href="#" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown">profils <i class="fa fa-angle-down"></i></a>
-                            <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Consultez votre profil</a></li>
-                                 <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Recherchez un profil</a></li>
-                            </ul></li>
-                            <li>
-                                <a href="#" class="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown">évènements <i class="fa fa-angle-down"></i></a>
-                                <ul class="dropdown-menu" role="menu" aria-labelledby="ddlmenuItem">
-                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Consultez un évènement</a></li>
-                                     <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Créez un évènement</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="tab.html">Nous contacter</a></li>
-                            <div id="searchbar">
-
-                        <h5>Rechercher un profil</h5>
-                <form action="" class="formulaire">
-               <input class="champ" type="text" placeholder="Entrez un nom"/>
-                    <input class="bouton" type="button" value="Rechercher"/>
-
-                </form>
-                </div>
                         </ul>
                     </div>
                 </div>
@@ -75,6 +57,14 @@
             </div>
         </div>
     </section>
+
+                        <h5>Rechercher un profil</h5>
+                <form action="recherche_prof.php" class="formulaire">
+               <input name="cherchenom" class="champ" type="text" placeholder="Entrez un nom"/>
+                    <input class="bouton" type="button" value="Rechercher"/>
+
+                </form>
+
      <!-- MENU SECTION END-->
     <div class="content-wrapper">
          <div class="container">
@@ -115,15 +105,15 @@
                     <div class="carousel-inner">
                         <div class="item active">
 
-                            <img src="/img/1.jpg" alt="" />
+                            <img src="assets/img/1.jpg" alt="" />
 
                         </div>
                         <div class="item">
-                            <img src="/img/2.jpg" alt="" />
+                            <img src="assets/img/2.jpg" alt="" />
 
                         </div>
                         <div class="item">
-                            <img src="/img/3.jpg" alt="" />
+                            <img src="assets/img/3.jpg" alt="" />
 
                         </div>
                     </div>
@@ -153,9 +143,9 @@
                               Nous sommes trois élèves ingénieurs en informatique à l'EISTI en région parisienne. A travers ce projet, nous voulons que les gens se retrouvent en fonction de leurs passions et de leurs centres d'intérets.
                             </div>
                             <div class="chat-widget-name-left">
-                              <img src="/img/tyty.jpg" width="20%"/>
+                              <img src="tyty.jpg" width="20%"/>
                               <img src="/img/alex.jpg" width="20%"/>
-                              <img src="/img/robin.jpg" width="20%"/>
+                              <img src="robin.jpg" width="20%"/>
                             </div>
                             <hr />
                         </div>
@@ -174,8 +164,8 @@
                         </div>
                         <div class="panel-body text-center recent-users-sec">
 <img class="img-thumbnail"/>
-                        <a href="http://www.meteofrance.com/accueil">Va checker la météo !</a>
-                        <img src="/img/meteo.jpeg"/>
+                        <a href="#http://www.meteofrance.com/accueil">Va checker la météo !</a>
+                        <img src="meteo.jpeg"/>
                         </div>
      </div>
              </div>
@@ -189,7 +179,7 @@
             <div class="row">
                 <div class="col-md-12">
                    &copy; 2017 CHATELET Robin | HASSAN Alexandre | NGUYEN TERRY
-                   <img src="/img/eisti.png"/>
+                   <img src="eisti.png"/>
                 </div>
 
             </div>
