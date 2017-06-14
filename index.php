@@ -24,9 +24,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="left-div" href="index.html">
+                <a class="left-div" href="index.php">
 
-                    <img src="letter_s.png" />
+                    <img src="/img/letter_s.png" />
                 </a>
 
             </div>
