@@ -44,7 +44,7 @@
                 <div class="col-md-12">
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
-                            <li><a href="index.html" >Accueil</a></li>
+                            <li><a href="index.php" >Accueil</a></li>
                             <li><a href="page_profil.php">Profils</a></li>
                             <li><a href="evenement.php">événements</a></li>
                             <li><a href="covoiturage.php">Covoiturage</a></li>
@@ -57,13 +57,17 @@
             </div>
         </div>
     </section>
-
+	
+	<div id="rech">
+	
                         <h5>Rechercher un profil</h5>
                 <form action="recherche_prof.php" class="formulaire">
                <input name="cherchenom" class="champ" type="text" placeholder="Entrez un nom"/>
                     <input class="bouton" type="button" value="Rechercher"/>
 
                 </form>
+
+	</div>
 
      <!-- MENU SECTION END-->
     <div class="content-wrapper">
@@ -105,15 +109,15 @@
                     <div class="carousel-inner">
                         <div class="item active">
 
-                            <img src="assets/img/1.jpg" alt="" />
+                            <img src="/img/1.jpg" alt="" />
 
                         </div>
                         <div class="item">
-                            <img src="assets/img/2.jpg" alt="" />
+                            <img src="/img/2.jpg" alt="" />
 
                         </div>
                         <div class="item">
-                            <img src="assets/img/3.jpg" alt="" />
+                            <img src="/img/3.jpg" alt="" />
 
                         </div>
                     </div>
@@ -143,9 +147,9 @@
                               Nous sommes trois élèves ingénieurs en informatique à l'EISTI en région parisienne. A travers ce projet, nous voulons que les gens se retrouvent en fonction de leurs passions et de leurs centres d'intérets.
                             </div>
                             <div class="chat-widget-name-left">
-                              <img src="tyty.jpg" width="20%"/>
+                              <img src="/img/tyty.jpg" width="20%"/>
                               <img src="/img/alex.jpg" width="20%"/>
-                              <img src="robin.jpg" width="20%"/>
+                              <img src="/img/robin.jpg" width="20%"/>
                             </div>
                             <hr />
                         </div>
@@ -164,8 +168,8 @@
                         </div>
                         <div class="panel-body text-center recent-users-sec">
 <img class="img-thumbnail"/>
-                        <a href="#http://www.meteofrance.com/accueil">Va checker la météo !</a>
-                        <img src="meteo.jpeg"/>
+                        <a href="http://www.meteofrance.com/accueil">Va checker la météo !
+                        <img src="/img/meteo.jpeg"/> </a>
                         </div>
      </div>
              </div>
@@ -179,7 +183,7 @@
             <div class="row">
                 <div class="col-md-12">
                    &copy; 2017 CHATELET Robin | HASSAN Alexandre | NGUYEN TERRY
-                   <img src="eisti.png"/>
+                   <a href="http://eisti.fr/"> <img src="/img/eisti.png"/> </a>
                 </div>
 
             </div>
