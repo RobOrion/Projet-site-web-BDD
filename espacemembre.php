@@ -11,7 +11,7 @@
 
 
   <header>
-    <center> <img src="/img/letter_s.png.png" width="15%" height="15%"/>
+    <center> <img src="/img/letter_s.png" width="15%" height="15%"/>
     <h1> Inscrivez vous !</h1></center>
   </header>
 
@@ -19,20 +19,20 @@
 
  <form method="post">
    <label>
-     Nom : <input type="text" id="nom" name="nom" value="Entrez un nom"/>
+     Nom : <input type="text" id="nom" name="nom" placeholder="Entrez un nom"/>
    </label> <br/> <br/>
    <label>
-     Prénom : <input type="text" id="prenom" name="prenom" value="Entrez un prénom"/>
+     Prénom : <input type="text" id="prenom" name="prenom" placeholder="Entrez un prénom"/>
    </label> <br/> <br/>
    <label>
-     Ville : <input type="text" id="ville" name="ville" value="Entrez une ville"/>
+     Ville : <input type="text" id="ville" name="ville" placeholder="Entrez une ville"/>
    </label> <br/> <br/>
    <label>
-     Code Postal : <input type="text" id="code" name="code" value="Entrez un code postal"/>
+     Code Postal : <input type="text" id="code" name="code" placeholder="Entrez un code postal"/>
    </label> <br/> <br/>
    <label>
      Adresse :<div id = "mondiv">
-      <textarea rows="4" cols="40" name="adresse"> </textarea>   <img id = "im" src="/img/bonhome.jpg" width="30%" height="30%"/> </div>
+      <textarea rows="1" cols="40" name="adresse"> </textarea>   <img id = "im" src="/img/bonhome.jpg" width="30%" height="30%"/> </div>
    </label><br/> <br/>
 
 <!--date de naissance -->
@@ -117,12 +117,12 @@ Date de Naissance :
      </select> <br/> <br/>
 
    <label>
-     Nom d'utilisateur : <input type="text" id="login" name="login" value="Choisissez un nom"/>
+     Nom d'utilisateur : <input type="text" id="login" name="login" placeholder="Choisissez un nom"/>
 
    </label> <br/> <br/>
 
    <label>
-     Mot de passe : <input type="password" id="pass" name="pass" value="Choisissez un mot de passe"/>
+     Mot de passe : <input type="password" id="pass" name="pass" placeholder="Choisissez un mot de passe"/>
 
    </label> <br/> <br/>
 
