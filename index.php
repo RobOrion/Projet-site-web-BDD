@@ -98,6 +98,7 @@
 
 
         </div>
+<!-- Bloc qui permettra de faire défiler des images -->
              <div class="row">
 
               <div class="col-md-8 col-sm-8 col-xs-12">
@@ -118,7 +119,7 @@
 
                         </div>
                     </div>
-                    <!--INDICATORS-->
+                    
                      <ol class="carousel-indicators">
                         <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example" data-slide-to="1"></li>
@@ -133,7 +134,7 @@
   </a>
                 </div>
               </div>
-
+<!-- Bloc de type "blog" qui fera une courte présentation de notre projet -->
                  <div class="col-md-4 col-sm-4 col-xs-12">
                  <div class="panel panel-primary ">
                         <div class="panel-heading">
@@ -156,7 +157,7 @@
 
                  </div>
 
-
+<!-- Bloc connecté au site de météo france pour motiver les visiteurs à s'inscrire et à faire des activités -->
              <center><div class="row">
                  <div class="col-md-4 col-sm-4 col-xs-12">
  <div class="panel panel-default">
@@ -174,10 +175,10 @@
 
     </div>
     </div>
-     <!-- CONTENT-WRAPPER SECTION END-->
+<!-- Pied de page avec nos noms et le logo de l'EISTI --> 
     <section class="footer-section">
         <div class="container">
-            <div class="row">
+           <div class="row">
                 <div class="col-md-12">
                    &copy; 2017 CHATELET Robin | HASSAN Alexandre | NGUYEN TERRY
                    <a href="http://eisti.fr/"> <img src="/img/eisti.png"/> </a>
