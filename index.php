@@ -7,15 +7,12 @@
     <meta name="author" content="" />
 
     <title>SHARE</title>
-    <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
-    <!-- FONT AWESOME STYLE  -->
-    <!--<link href="assets/css/font-awesome.css" rel="stylesheet" />-->
-    <!-- CUSTOM STYLE  -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
 </head>
 <body>
+	<!-- Insertion du logo du site  -->
     <div class="site" >
         <div class="container">
             <div class="site-header">
@@ -30,14 +27,14 @@
                 </a>
 
             </div>
-
+<!-- Boutons connexion et inscription -->
             <div class="right-div">
                 <a href="espacemembre.php" class="btn btn-danger pull-right">S'inscrire</a>
                 <a href="sign-in.php" class="btn btn-danger pull-right">Connexion</a>
             </div>
         </div>
     </div>
-    <!-- LOGO HEADER END-->
+    <!-- Barre contenant les onglets  -->
     <section class="menu-section">
         <div class="container">
             <div class="row">
@@ -57,11 +54,11 @@
             </div>
         </div>
     </section>
-	
+	<!-- Barre de recherche d'un profil accessible par quelconque utilisateur même non-inscrit -->
 	<div id="rech">
 	
                         <h5>Rechercher un profil</h5>
-                <form action="recherche_prof.php" class="formulaire">
+                <form action="recherche_prof.php" class="formulaire"> <!-- utilisation de recherche_prof.php pour exécuter la recherche -->
                <input name="cherchenom" class="champ" type="text" placeholder="Entrez un nom"/>
                     <input class="bouton" type="button" value="Rechercher"/>
 
@@ -69,7 +66,7 @@
 
 	</div>
 
-     <!-- MENU SECTION END-->
+     <!-- Fin de l'en-tête du site et début de sa description -->
     <div class="content-wrapper">
          <div class="container">
         <div class="row pad-botm">
@@ -80,7 +77,7 @@
 
         </div>
 
-           <div class="row">
+           <div class="row"> <!-- Les deux blocs de description -->
 
                  <center><div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-info back-widget-set text-center">
