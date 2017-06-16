@@ -150,8 +150,9 @@
                               <img src="/img/robin.jpg" width="20%"/>
                             </div>
                             <hr />
+			
                         </div>
-
+<div id="next"> Next ... </div>
                     </div>
              </div>
 
