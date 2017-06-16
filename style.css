@@ -28,6 +28,15 @@ body {
 /* =============================================================
    NAVBAR & MENU STYLES
  ============================================================ */
+#next {
+	text-align : right;
+	color: #fff;
+	background-color: #c9302c;
+	border-color: #ac2925;
+}
+
+
+
 .left-div {
   float: left;
   padding: 20px;
