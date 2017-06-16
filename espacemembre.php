@@ -73,23 +73,30 @@ Date de Naissance :
 
 
 <select>
- <option selected>janvier</option>
- <option>février</option>
- <option>mars</option>
- <option>avril</option>
- <option>mai</option>
- <option>juin</option>
- <option>juillet</option>
- <option>aout</option>
- <option>septembre</option>
- <option>octobre</option>
- <option>novembre</option>
- <option>decembre</option>
+ <option selected> Janvier </option>
+ <option> Février </option>
+ <option> Mars </option>
+ <option> Avril </option>
+ <option> Mai </option>
+ <option> Juin </option>
+ <option> Juillet </option>
+ <option> Août </option>
+ <option> Septembre </option>
+ <option> Octobre </option>
+ <option> Novembre </option>
+ <option> Décembre </option>
 </select>
 
 
 
      <select>
+       <option>1972</option>
+       <option>1973</option>
+       <option>1974</option>
+       <option>1975</option>
+       <option>1976</option>
+       <option>1977</option>
+       <option>1978</option>
       <option>1979</option>
       <option>1980</option>
       <option>1981</option>
@@ -101,7 +108,7 @@ Date de Naissance :
       <option>1987</option>
       <option>1988</option>
       <option>1989</option>
-      <option>1990</option>
+      <option selected>1990</option>
       <option>1991</option>
       <option>1992</option>
       <option>1993</option>
@@ -110,10 +117,17 @@ Date de Naissance :
       <option>1994</option>
       <option>1995</option>
      	<option>1996</option>
-     	<option selected>1997</option>
+     	<option>1997</option>
      	<option>1998</option>
      	<option>1999</option>
      	<option>2000</option>
+       <option>2001</option>
+       <option>2002</option>
+       <option>2003</option>
+       <option>2004</option>
+       <option>2005</option>
+       <option>2006</option>
+       <option>2007</option>
      </select> <br/> <br/>
 
    <label>
