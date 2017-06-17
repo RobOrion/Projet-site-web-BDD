@@ -16,13 +16,11 @@
 	<div id = "titre">
 		<a href="site.php"> <img src="/img/letter_s.png" href="site.php" width="120%"/> </a>
 	</div>
-
-	<div id = "bouton">
-		<input type="button" value="Insciption" style="width: 100%;"/>
-		<form action="sign-in.html">
-	  	<input type="submit" value="Connexion"/>
-		</form>
-	</div>
+	
+		<div class="right-div">
+                <a href="espacemembre.php" class="btn btn-danger pull-right">S'inscrire</a>
+                <a href="sign-in.php" class="btn btn-danger pull-right">Connexion</a>
+            </div>
 
 	<div id = "barre2">
 		<div id = "cherch">
