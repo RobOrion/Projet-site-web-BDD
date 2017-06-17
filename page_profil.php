@@ -18,8 +18,7 @@
 	</div>
 	
 		<div class="right-div">
-                <a href="espacemembre.php" class="btn btn-danger pull-right">S'inscrire</a>
-                <a href="sign-in.php" class="btn btn-danger pull-right">Connexion</a>
+                <a href="deconnexion.php" class="btn btn-danger pull-right">Déconnexion</a>
             </div>
 
 	<div id = "barre2">
