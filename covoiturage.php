@@ -9,24 +9,47 @@
 
 <body>
   <header>
-	<center id="bigtitle"><h1> Trouvez quelqu'un avec qui y aller ! </h1></center>
-  </header>
-    
-	<div id="searchbar">
+    <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse ">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li><a href="index.php" >Accueil</a></li>
+                            <li><a href="page_profils.php">Profils</a></li>
+                            <li><a href="evenement.php">événements</a></li>
+                            <li><a href="covoiturage.php">Covoiturage</a></li>
+                            <li><a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">Contactez nous</a></li>
 
-	<center id="search"> Rechercher un lieu : </center>
-	<form action="recherche_covoi.php" class="formulaire">
-		<input name="lieu" class="champ" type="text" placeholder="Entrez un lieu"/>
-		<input class="bouton" type="button" value="Rechercher"/>
+                        </ul>
+                    </div>
+                </div>
 
-	</form>
-	</div>
+            </div>
+        </div>
+        <div class="right-div">
+            <a href="espacemembre.php" class="btn btn-danger pull-right">S'inscrire</a>
+            <a href="sign-in.php" class="btn btn-danger pull-right">Connexion</a>
+        </div>
+    </section>
+    <div id="searchbar">
+
+<h5>Rechercher un lieu</h5>
+<form action="recherche_covoi.php" class="formulaire">
+<input name="lieu" class="champ" type="text" placeholder="Entrez un lieu"/>
+<input class="bouton" type="button" value="Rechercher"/>
+
+</form>
+</div>
+
+    <center><h1> Trouvez quelqu'un avec qui y aller !</h1></center>
+
 
  <fieldset id="forum">
- <legend id="title"> Proposer ses services </legend>
- <form method="post" id="formu">
+ <legend id="titre"> Proposer ses services </legend>
+ <form method="post">
    <label>
-     Nom : <input type="text" id="nom" name="nom" placeholder="Entrez un nom"/>
+     Nom : <input type="text" id="nom" name="nom" placeholer="Entrez un nom"/>
    </label> <br/> <br/>
    <label>
      Prénom : <input type="text" id="prenom" name="prenom" placeholder="Entrez un prénom"/>
@@ -41,7 +64,7 @@
      Adresse : <br/> <textarea rows="4" cols="40" placeholder="adresse"> </textarea>
    </label>
    <label>
-     E-mail : <input type="text" id="email" name="email" placeholder="Entrez votre adresse e-mail"/>
+     e-mail : <input type="text" id="email" name="email" placeholder="Entrez votre adresse e-mail"/>
 
    </label> <br/> <br/>
 
@@ -56,20 +79,21 @@
    </label> <br/> <br/>
 
    <label>
-     Quelle heure ?  <input type="text" id="heure" name="heure" placeholder="A quelle heure serez-vous là ?"/>
+     Quelle heure ?  <input type="text" id="heure" name="heure" value="A quelle heure serez vous là ?"/>
 
    </label> <br/> <br/>
 
    <label>
-     Quel prix ?  <input type="int" id="prix" name="prix" placeholder="Combien de dédommagement ?"/>
+     Quel prix ?  <input type="int" id="prix" name="prix" value="Combien de dédommagement ?"/>
 
    </label> <br/> <br/>
-
-   <center> <input type="submit" value="Envoyer" id="but"/> </center>
+  
+   <input type="submit" value="Envoyer"  <?php
+   		include('fonction.php');
+   		logged_only();
+   	?> />
 
  </form>
-
-</div>
  </fieldset>
 
 
