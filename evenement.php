@@ -10,6 +10,25 @@
 <body>
   <header>
 	<center id="bigtitle"><h1> Evénement ! </h1></center>
+	  <section class="menu-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="navbar-collapse collapse ">
+                        <ul id="menu-top" class="nav navbar-nav navbar-right">
+                            <li><a href="index.php" >Accueil</a></li>
+                            <li><a href="page_profil.php">Profils</a></li>
+                            <li><a href="evenement.php">événements</a></li>
+                            <li><a href="covoiturage.php">Covoiturage</a></li>
+                            <li><a href="https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession">Contactez nous</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
   </header>
 
 	<div id="searchbar">
@@ -132,7 +151,10 @@ function myMap() {
    <center><input type="submit" value="Envoyer" id="but"/></center>
 
  </form>
- </fieldset>
+ </fieldset><?php
+    		include('fonction.php');
+    		logged_only();
+    	?> 
 
 
 <?php
