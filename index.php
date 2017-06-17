@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link
+    <link rel="icon" href="letter_s.jpg"/>
 
     <title>SHARE</title>
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
