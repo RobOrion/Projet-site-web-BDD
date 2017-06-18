@@ -140,13 +140,22 @@ Date de Naissance :
 
    </label> <br/> <br/>
 
+   <div>  <!--définit si utilisateur ou modérateur-->
+     <input id ="userType" type="text" name="typeUser" value=1 style="display:none;">
+   </div>
+
+
    <input type="submit" value="Confirmer" />
+
+
 
  </form>
  </fieldset>
 
 
 <?php
+
+
 try {
   $bdd = new PDO('mysql:host=localhost;dbname=profils','root', '');
 }
@@ -158,9 +167,10 @@ catch(Exception $e)
 
 $pass_hache = sha1($_POST['pass']);
 
-$req = $bdd->prepare("INSERT INTO profils SET Nom = ?, Prénom=?, e-mail=?, Naissance=?, Adresse=?, Ville=?, Code Postal=? login=?, password=?");
+$req = $bdd->prepare("INSERT INTO profils SET Nom = ?, Prénom=?, e-mail=?, Naissance=?, Adresse=?, Ville=?, Code Postal=? login=?, password=?, statu=?");
 
-$req->execute([$_POST['nom'], $_POST['prenom'], $_POST['mail'], $_POST['a_naissance'], $_POST['adresse'], $_POST['ville'], $_POST['code'], $_POST['login'], $_POST['pass']]);
+
+$req->execute([$_POST['nom'], $_POST['prenom'], $_POST['mail'], $_POST['a_naissance'], $_POST['adresse'], $_POST['ville'], $_POST['code'], $_POST['login'], $_POST['pass'], $_POST['typeUser']);
 
 ?>
 <footer>
