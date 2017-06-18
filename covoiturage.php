@@ -87,7 +87,7 @@
      Quel prix ?  <input type="int" id="prix" name="prix" value="Combien de dédommagement ?"/>
 
    </label> <br/> <br/>
-  
+
    <input type="submit" value="Envoyer"  <?php
    		include('fonction.php');
    		logged_only();
