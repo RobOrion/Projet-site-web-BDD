@@ -67,11 +67,11 @@
 	<div id="conteneur">
 
 	<div class="bloc">
-		<a href="evenement_page.php" class="lien2"> EVENEMENT
+		<a href="evenement.php" class="lien2"> EVENEMENT
 	</div>
 
 	<div class="bloc">
-		<a href="chat_page.php" class="lien2"> CHAT
+		<a href="chat.php" class="lien2"> CHAT
 	</div>
 
 	<div class="bloc">
