@@ -75,7 +75,7 @@
 	</div>
 
 	<div class="bloc">
-		<a href="info_page.php.php" class="lien2"> Informations Personnelles
+		<a href="info_page.php" class="lien2"> Informations Personnelles
 	</div>
 
 	<div class="bloc">
