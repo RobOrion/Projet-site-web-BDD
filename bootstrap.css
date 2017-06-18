@@ -6,6 +6,11 @@ html {
 body {
   margin: 0;
 }
+
+#rech {
+	margin : 0% 0% 0% 1%;
+}
+
 article,
 aside,
 details,
