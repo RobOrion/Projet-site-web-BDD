@@ -43,7 +43,7 @@
                   <div class="col-md-12">
                       <div class="navbar-collapse collapse ">
                           <ul id="menu-top" class="nav navbar-nav navbar-right">
-                              <li><a href="index.html" >Accueil</a></li>
+                              <li><a href="index.php" >Accueil</a></li>
                               <li><a href="page_profil.php">Profils</a></li>
                               <li><a href="evenement.php">événements</a></li>
                               <li><a href="covoiturage.php">Covoiturage</a></li>
@@ -86,11 +86,18 @@ catch(Exception $e)
 $reponse = $bdd->query('SELECT login, message FROM Chat ORDER BY ID DESC LIMIT 0, 10');
 
 
+$sql = 'SELECT statu date FROM Profils';
+
+
 // Affichage de chaque message (toutes les données sont protégées par htmlspecialchars)
 
 while ($donnees = $reponse->fetch())
 {
     echo '<p><strong>' . htmlspecialchars($donnees['login']) . '</strong> : ' . htmlspecialchars($donnees['message']) . '</p>';
+
+    if($_SESSION['statu']==2)){
+      ?><input type = "submit" action = "<?unset($donnees['message'])?>" value = "supprimer le message"> <?
+    }
 }
 $reponse->closeCursor();
 
