@@ -8,4 +8,6 @@ CREATE TABLE Profils (
     naissance date NOT NULL,
     login varchar(7) PRIMARY KEY,
     mot_de_passe varchar(7) NOT NULL,
+    note int(5) NOT NULL,
+    statu int(2) NOT NULL
 )

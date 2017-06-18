@@ -44,7 +44,7 @@
 							<div class="col-md-12">
 									<div class="navbar-collapse collapse ">
 											<ul id="menu-top" class="nav navbar-nav navbar-right">
-													<li><a href="index.html" >Accueil</a></li>
+													<li><a href="index.php" >Accueil</a></li>
 													<li><a href="page_profil.php">Profils</a></li>
 													<li><a href="evenement.php">événements</a></li>
 													<li><a href="covoiturage.php">Covoiturage</a></li>
@@ -67,7 +67,7 @@
 	<div id="conteneur">
 
 	<div class="bloc">
-		<a href="evenement.php" class="lien2"> EVENEMENT
+		<a href="evenement_page.php" class="lien2"> EVENEMENT
 	</div>
 
 	<div class="bloc">
@@ -78,13 +78,6 @@
 		<a href="info_page.php" class="lien2"> Informations Personnelles
 	</div>
 
-	<div class="bloc">
-		<a href="accessoire_page.php" class="lien2"> Accessoires
-	</div>
-
-	<div class="bloc">
-		<a href="aide_page.php" class="lien2"> Aide
-	</div>
 	</div>
 
 	<footer>
