@@ -5,9 +5,17 @@
   <title> Evénements </title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="evenement.css"/>
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
+
+  <?php
+    include('fonction.php');
+    logged_only();
+  ?>
+
   <header>
 	<center id="bigtitle"><h1> Evénement ! </h1></center>
 	  <section class="menu-section">
@@ -154,7 +162,7 @@ function myMap() {
  </fieldset><?php
     		include('fonction.php');
     		logged_only();
-    	?> 
+    	?>
 
 
 <?php
