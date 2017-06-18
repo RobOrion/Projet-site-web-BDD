@@ -5,6 +5,8 @@
   <title> Covoiturage </title>
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="covoiturage.css"/>
+  <link href="assets/css/bootstrap.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -62,7 +64,7 @@
    </label> <br/> <br/>
    <label>
      Adresse : <br/> <textarea rows="4" cols="40" placeholder="adresse"> </textarea>
-   </label>
+   </label><br/> <br/>
    <label>
      e-mail : <input type="text" id="email" name="email" placeholder="Entrez votre adresse e-mail"/>
 
