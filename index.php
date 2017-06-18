@@ -151,7 +151,6 @@
                             <hr />
 			
                         </div>
-<div id="next"> Next ... </div>
                     </div>
              </div>
 
